@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: black;
+  background-color: white;
 }
 
 p,
@@ -118,43 +119,6 @@ h6,
 }
 .hero .container .hero__slider.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
-}
-.hero .container .hero__slider.owl-carousel .owl-nav button {
-  font-size: 36px;
-  height: 66px;
-  width: 66px;
-  background: #0b0c2a;
-  line-height: 66px;
-  text-align: center;
-  color: #ffffff;
-  transform: rotate(45deg);
-  position: relative;
-  z-index: 1;
-  position: absolute;
-  left: -33px;
-  top: 50%;
-  margin-top: -47px;
-}
-.hero .container .hero__slider.owl-carousel .owl-nav button.owl-next {
-  left: auto;
-  right: -33px;
-}
-.hero .container .hero__slider.owl-carousel .owl-nav button:after {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  right: 0;
-  height: 54px;
-  width: 54px;
-  background: rgba(255, 255, 255, 0.1);
-  content: "";
-  z-index: -1;
-  margin: 0 auto;
-}
-.hero .container .hero__slider.owl-carousel .owl-nav button span {
-  transform: rotate(-45deg);
-  display: block;
-  z-index: 1;
 }
 .hero .container .hero__items {
   padding: 250px 0 42px 50px;
